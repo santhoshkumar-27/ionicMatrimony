@@ -1,0 +1,7 @@
+{
+  "name": "ionicMatrimony",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}

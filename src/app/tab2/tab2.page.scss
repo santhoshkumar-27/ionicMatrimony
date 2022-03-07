@@ -1,0 +1,14 @@
+ion-toolbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    transition: top 0.6s;
+    z-index: 999;
+}
+ion-toolbar.active {
+    top: -80px !important;
+}
+ion-toolbar.inactive {
+    top: 0px !important;
+}

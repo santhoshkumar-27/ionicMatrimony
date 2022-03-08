@@ -12,3 +12,30 @@ ion-toolbar.active {
 ion-toolbar.inactive {
     top: 0px !important;
 }
+ion-header {
+    transition: top 0.6s;
+}
+.demo {
+    --background: linear-gradient(
+        90deg,
+        rgba(2, 0, 36, 1) 0%,
+        rgba(85, 185, 113, 1) 0%,
+        rgba(39, 178, 180, 1) 99%,
+        rgba(0, 212, 255, 1) 100%
+    ) !important;
+}
+a:hover {
+    color: #528723 !important;
+}
+.rounded {
+    border-radius: 1.25rem !important;
+}
+.btn:focus {
+    outline: 0;
+    box-shadow: unset !important;
+}
+.wf {
+    padding-inline: 1.5rem;
+    padding-block: 0.2rem;
+    border-radius: 1rem;
+}
